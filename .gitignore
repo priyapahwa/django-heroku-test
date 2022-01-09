@@ -1,0 +1,23 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+*.sqlite3
+media
+
+# Environments 
+.env
+pyvenv.cfg
+bin/
+lib/
+Lib
+lib64/
+lib64
+share/
+include/
+Scripts/
+
+# Visual Studio Code # 
+.vscode/
+.history
