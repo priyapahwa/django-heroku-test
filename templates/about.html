@@ -1,4 +1,9 @@
 {% extends 'base.html' %}
 {% block content %}
     <h1>Root</h1>
+    <ul>
+        {% for team in all_team_list %}
+            <li> {{ team }} </li>
+        {% endfor %}
+    </ul>
 {% endblock content %}
